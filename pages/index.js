@@ -1,5 +1,5 @@
 import { Header } from "../src/component/header";
-import { ParallaxBody, ParallaxScene, ParallaxLayer } from "./styles";
+import { ParallaxBody, ParallaxScene, ParallaxLayer } from "./_styles";
 
 function Home() {
     return (
