@@ -24,7 +24,7 @@ export const ParallaxLayer = styled.div`
     height: 100%;
     background-position: bottom;
     background-size: contain;
-    background-repeat: ${(p) => p && p.repeat? 'repeat' : 'no-repeat'};
+    background-repeat: ${(p) => p && p.repeat? 'repeat-x' : 'no-repeat'};
     background-image: url('${(p) => p? p.test : ''}');
     transform: translateZ(${(p) => p? p.translateZ : 0}px);
 `;
